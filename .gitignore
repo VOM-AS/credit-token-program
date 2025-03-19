@@ -1,0 +1,27 @@
+# Rust/Anchor build artifacts
+target/
+**/*.rs.bk
+.anchor/
+
+# Solana
+test-ledger/
+
+# Node (for tests)
+node_modules/
+.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.so
+dist/
+build/
+
+# Cargo
+Cargo.lock
