@@ -25,3 +25,9 @@ build/
 
 # Cargo
 Cargo.lock
+
+# Program keypair
+*-keypair.json
+
+# Git
+.gitignore

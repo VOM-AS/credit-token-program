@@ -6,11 +6,11 @@ use solana_security_txt::security_txt;
 
 #[security_txt(
     name = "Credit Token Program",
-    project_url = "https://github.com/yourusername/credit-token-program",
-    contacts = "email:security@yourdomain.com,github:https://github.com/yourusername/credit-token-program/security",
-    policy = "https://github.com/yourusername/credit-token-program/blob/main/SECURITY.md",
+    project_url = "https://github.com/VOM-AS/credit-token-program?",
+    contacts = "email:memeyeeter.io@gmail.com",
+    policy = "https://github.com/VOM-AS/credit-token-program.git/blob/main/SECURITY.md",
     preferred_languages = "en",
-    source_code = "https://github.com/yourusername/credit-token-program",
+    source_code = "https://github.com/VOM-AS/credit-token-program.git",
     source_release = "v0.1.0",
     source_revision = "main",
     auditors = "None",
