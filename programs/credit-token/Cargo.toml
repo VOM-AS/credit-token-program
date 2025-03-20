@@ -1,5 +1,5 @@
 [package]
-name = "credit-token"
+name = "credit_token"
 version = "0.1.0"
 description = "Credit token purchase and management program"
 edition = "2021"
