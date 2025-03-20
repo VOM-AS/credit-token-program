@@ -23,8 +23,7 @@ Thumbs.db
 dist/
 build/
 
-# Cargo
-Cargo.lock
+
 
 # Program keypair
 *-keypair.json
