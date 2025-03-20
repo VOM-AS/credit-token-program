@@ -1,5 +1,34 @@
 # Credit Token Program
 
+This is the source code for the Credit Token Program deployed on Solana mainnet.
+
+## Deployed Program IDs
+
+| Network    | Program ID                                      | Explorer Link                                                                                  |
+|------------|------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Mainnet    | `FPgBsgLFt5PTDHKnC38YWgoPJy4pJ111SgDELPKrPGpw` | [Solana Explorer](https://explorer.solana.com/address/FPgBsgLFt5PTDHKnC38YWgoPJy4pJ111SgDELPKrPGpw) |
+| Mainnet (older version) | `HJWf9ne42BeCtCWti7VmydDs9jgnZxiTtMUBJTxb29g5` | [Solana Explorer](https://explorer.solana.com/address/HJWf9ne42BeCtCWti7VmydDs9jgnZxiTtMUBJTxb29g5) |
+
+## Program Details
+The Credit Token Program allows users to purchase credits using SOL. The program includes functionality for:
+
+1. Initializing a vault
+2. Purchasing credits in various amounts
+3. Allowing the authority to withdraw SOL from the vault
+
+## Building and Verifying
+
+To build the program:
+```bash
+anchor build
+```
+
+Due to ARM64/AMD64 architecture differences, verification using `solana-verify` directly on Apple Silicon Macs may encounter Docker compatibility issues.
+
+## Security
+
+For security concerns, please contact maintainers via the details provided in the program's security.txt.
+
 ## Overview
 The Credit Token Program is a Solana smart contract designed for secure and efficient credit token purchases. It enables users to purchase credits with SOL and manages withdrawals through a secure vault system, ensuring reliable and transparent transactions on the Solana blockchain.
 
@@ -9,9 +38,6 @@ The Credit Token Program is a Solana smart contract designed for secure and effi
 - Authority-controlled withdrawals with multi-signature support
 - Comprehensive input validation and security measures
 - Real-time transaction processing and confirmation
-
-## Security
-This program follows the `security.txt` standard. For security-related inquiries or vulnerability reports, please see our [SECURITY.md](./SECURITY.md) file.
 
 ## Architecture
 
