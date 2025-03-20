@@ -4,28 +4,6 @@ members = [
 ]
 resolver = "2"
 
-[package]
-name = "credit_token"
-version = "0.1.0"
-description = "Credit token purchase and management program"
-edition = "2021"
-license = "MIT"
-repository = "https://github.com/VOM-AS/credit-token-program"
-
-[lib]
-name = "credit_token"
-crate-type = ["cdylib", "lib"]
-
-[features]
-no-entrypoint = []
-no-idl = []
-cpi = ["no-entrypoint"]
-default = []
-
-[dependencies]
-anchor-lang = "0.28.0"
-solana-security-txt = "1.1.1"
-
 [profile.release]
 overflow-checks = true
 lto = "fat"
