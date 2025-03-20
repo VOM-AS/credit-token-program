@@ -4,9 +4,10 @@ version = "0.1.0"
 description = "Credit token purchase and management program"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/yourusername/credit-token-program"
+repository = "https://github.com/VOM-AS/credit-token-program"
 
 [lib]
+name = "credit_token"
 crate-type = ["cdylib", "lib"]
 
 [features]

@@ -1,3 +1,9 @@
+[workspace]
+members = [
+    "programs/credit-token",
+]
+resolver = "2"
+
 [package]
 name = "credit-token"
 version = "0.1.0"
