@@ -2,22 +2,7 @@ use anchor_lang::prelude::*;
 use anchor_lang::solana_program::system_instruction;
 use anchor_lang::solana_program::native_token::LAMPORTS_PER_SOL;
 
-use solana_security_txt::security_txt;
-
-#[security_txt(
-    name = "Credit Token Program",
-    project_url = "https://github.com/VOM-AS/credit-token-program?",
-    contacts = "email:memeyeeter.io@gmail.com",
-    policy = "https://github.com/VOM-AS/credit-token-program.git/blob/main/SECURITY.md",
-    preferred_languages = "en",
-    source_code = "https://github.com/VOM-AS/credit-token-program.git",
-    source_release = "v0.1.0",
-    source_revision = "main",
-    auditors = "None",
-    acknowledgements = "None reported yet"
-)]
-
-declare_id!("HJWf9ne42BeCtCWti7VmydDs9jgnZxiTtMUBJTxb29g5");
+declare_id!("FPgBsgLFt5PTDHKnC38YWgoPJy4pJ111SgDELPKrPGpw");
 
 #[program]
 pub mod credit_token {
