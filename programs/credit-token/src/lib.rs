@@ -2,7 +2,7 @@ use anchor_lang::prelude::*;
 use anchor_lang::solana_program::system_instruction;
 use anchor_lang::solana_program::native_token::LAMPORTS_PER_SOL;
 
-declare_id!("FPgBsgLFt5PTDHKnC38YWgoPJy4pJ111SgDELPKrPGpw");
+declare_id!("HJWf9ne42BeCtCWti7VmydDs9jgnZxiTtMUBJTxb29g5");
 
 #[program]
 pub mod credit_token {
